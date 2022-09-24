@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* font-family: 'Pacifico', cursive; */
+:root{
+    --yellow-doggy: #FBD746;
+    --cyan-doggy: #509FC3;
+    --blue-doggy: #2D6A9E;
+    --white-doggy: #FFFFFF;
+    --black-doggy: #000000;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    max-width: 550px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/*HEADER*/
+header{
+    background: var(--yellow-doggy);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.logo img{
+    width: 60px;
+    display: block;
+    margin: 0 auto;
+}
+.logo span{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+/*HERO*/
+.hero{
+    background: var(--yellow-doggy);
+    max-height: 650px;
+}
+.hero .hero__text{
+    padding-top: 90px;
+}
+.hero .hero__text h1{
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 45px;
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.btn-doggy{
+    background-color: var(--cyan-doggy);
+    color: var(--white-doggy);
+    border-color: transparent;
+    border-radius: 0;
+    padding: 10px 20px;
+    display: block;
+    margin: 0 auto;
+}
+.hero .hero__img{
+    padding-top: 20px;
+}
+.hero .hero__img img{
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: -50px;
+    
+}
+
+/*VIDEO*/
+.video{
+    padding: 50px 0;
+}
+.video h2{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.video iframe{
+    width: 90%;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+/*FOOTER*/
+
+footer{
+    background-color: var(--yellow-doggy);
+    padding-top: 20px;
+}
+footer .slogan{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 35px;
+    padding: 20px 0;
+}
+footer .copy{
+    background-color: var(--black-doggy);
+    color: var(--white-doggy);
+    text-align: center;
+    padding: 10px 0;
+}
